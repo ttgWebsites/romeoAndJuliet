@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Fate</li>
+					<li data-theme="d">Like many of Shakespeare's plays the idea of a predetermined fate is well established in Romeo and Juliet</li>
+					<li data-theme="c">Even the characters are well aware of the idea of fate, and they often interpret what they believes are omens about their fate</li>
+					<li data-theme="d">It seems that Romeo and Juliet are fated to not be together despite their love</li>
+					<li data-theme="c">They are on opposite sides of a decades long feud</li>
+					<li data-theme="d">They are urged to see other people and must keep their love secrets</li>
+					<li data-theme="c">It seems that the only way they can be together is in the afterlife</li>
+					<li data-theme="d">Romeo believes this fate, and is quick to kill himself when he believes Juliet dead, sure enough she kills herself as well</li>
+					<li data-theme="c">Though they did not have to do this to be together, they accidentally do</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Individualism vs. society's will</li>
+					<li data-theme="d">Romeo and Juliet fall madly in love with first meeting however they must keep this love a secret due to the society they live in</li>
+					<li data-theme="c">Their love is forbidden as their two families are in a constant feud</li>
+					<li data-theme="d">One's loyalty to family, even the broad family of Montague and Capulet, outweighs one's individual desires</li>
+					<li data-theme="c">We see at the end of the play the consequences of going against society</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Love's power</li>
+					<li data-theme="d">Romeo and Juliet's love for one another knows no boundaries</li>
+					<li data-theme="c">Their love is so powerful that they are willing to sacrifice almost anything for one another despite the consequences</li>
+					<li data-theme="d">They are both blinded by love so as to not even worry about their feuding families</li>
+					<li data-theme="c">Their love results in both of their deaths as well as the needless deaths of others who stand in the way</li>
+					<li data-theme="d">This goes to show that though love is often very positive, that it is a powerful emotion that can lead to consequences including violence if not handled correctly</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Romeo And Juliet</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
